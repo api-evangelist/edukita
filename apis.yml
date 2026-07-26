@@ -1,7 +1,27 @@
 aid: edukita
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/edukita.png
 name: Edukita
-description: Edukita is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Edukita (PT Edukita Budaya Cinta Belajar) is an Indonesian education company founded during the
+  COVID-19 pandemic by Peter Gumulia and Sean Widjaja on the belief that high-quality education
+  should be accessible to all. It teaches skills that matter through playful but powerful learning,
+  delivering programs online, through six physical learning centers across Greater Jakarta (Bintaro,
+  Bogor, BSD, Depok, Gading Serpong), and blended (Rumah Belajar Edukita). Programs span English with
+  native speakers, early childhood development, Japanese mathematics, and professional upskilling for
+  young students, families, adult learners, and corporate training. Edukita is a portfolio company of
+  500 Global. It exposes no public developer API surface at this time; this profile captures its
+  identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/edukita/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- EdTech
+- Online Learning
+- English Language Learning
+- Early Childhood Development
+- Professional Development
+- Tutoring
+- Indonesia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://edukita.com
+  url: https://www.edukita.com
+- type: About
+  url: https://www.edukita.com/our-story
+- type: Blog
+  url: https://www.edukita.com/blog
+- type: TermsOfService
+  url: https://www.edukita.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.edukita.com/privacy-policy
+- type: DomainSecurity
+  url: security/edukita-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
